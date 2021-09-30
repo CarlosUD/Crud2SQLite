@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:fontFamily="monospace"
+                android:text="K-FECITO"
+                android:textColor="@color/white"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/cafe" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="22sp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/et_codigo"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/teal_700"
+                    android:layout_width="300sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:drawableLeft="@drawable/ic_key_24"
+                    android:hint="Ingrese codigo"
+                    android:inputType="number"
+                    android:paddingLeft="25dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="#B7FFFFFF"
+                    android:drawablePadding="22sp"
+                     />
+
+                <EditText
+                    android:id="@+id/et_descripcion"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/teal_700"
+                    android:layout_width="300sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="20dp"
+                    android:drawableLeft="@drawable/ic_note_add_24"
+                    android:hint="Ingrese descripcion"
+                    android:inputType="text"
+                    android:paddingLeft="25dp"
+                    android:textColorHint="#B7FFFFFF"
+                    android:drawablePadding="22sp" />
+
+                <EditText
+                    android:id="@+id/et_precio"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/teal_700"
+                    android:layout_width="300sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:drawableLeft="@drawable/precio"
+                    android:hint="Ingrese precio"
+                    android:textColor="@color/white"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="25dp"
+                    android:textColorHint="#B7FFFFFF"
+                    android:drawablePadding="22sp" />
+
+                <Button
+                    android:id="@+id/btn_guardar"
+                    android:text="Guardar"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20sp"
+                    android:layout_height="83dp"
+                    android:drawableLeft="@drawable/ic_save_24"
+                    app:cornerRadius="12sp"
+                    android:backgroundTint="#01579B"
+                    android:paddingVertical="12sp"
+                    android:paddingStart="22dp"
+                    android:paddingHorizontal="52sp"
+                    android:onClick="alta"
+                    android:textColor="@color/black"
+                    />
+
+                <Button
+                    android:id="@+id/btn_consultar1"
+                    android:text="Consultar codigo"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_searchbtn"
+                    android:textStyle="bold"
+                    app:cornerRadius="12sp"
+                    android:backgroundTint="#CDDC39"
+                    android:paddingVertical="22sp"
+                    android:paddingHorizontal="52sp"
+                    android:paddingStart="22dp"
+                    android:onClick="consultaporcodigo"
+                    android:textColor="@color/black"
+                    android:textSize="11sp" />
+
+                <Button
+                    android:id="@+id/btn_consultar2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:backgroundTint="#CDDC39"
+                    android:drawableLeft="@drawable/ic_searchbtn"
+                    android:onClick="consultapordescripcion"
+                    android:paddingHorizontal="22sp"
+                    android:paddingVertical="22sp"
+                    android:paddingStart="22dp"
+                    android:text="Consultar descripcion"
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="12sp" />
+
+                <Button
+                    android:id="@+id/btn_eliminar"
+                    android:text="Borrar"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_delete"
+                    app:cornerRadius="12sp"
+                    android:backgroundTint="#FF9100"
+                    android:paddingHorizontal="22sp"
+                    android:paddingVertical="22sp"
+                    android:paddingStart="22dp"
+                    android:onClick="bajaporcodigo"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btn_actualizar"
+                    android:text="Modificar"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/descripcion"
+                    app:cornerRadius="12sp"
+                    android:backgroundTint="#00B8D4"
+                    android:paddingHorizontal="22sp"
+                    android:paddingVertical="22sp"
+                    android:paddingStart="22dp"
+                    android:onClick="modificacion"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

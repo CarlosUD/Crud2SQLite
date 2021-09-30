@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP14/AndroidStudioProjects/Crud2/app/src/main/res/drawable/fondo.xml" value="0.2203125" />
+        <entry key="..\:/Users/HP14/AndroidStudioProjects/Crud2/app/src/main/res/layout/activity_consulta_spinner.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP14/AndroidStudioProjects/Crud2/app/src/main/res/layout/activity_detalles_articulos.xml" value="0.1" />
+        <entry key="..\:/Users/HP14/AndroidStudioProjects/Crud2/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP14/AndroidStudioProjects/Crud2/app/src/main/res/layout/content_main.xml" value="0.18" />
+        <entry key="..\:/Users/HP14/AndroidStudioProjects/Crud2/app/src/main/res/layout/ventana1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ITCA/Documents/CRUDV2/app/src/main/res/drawable/botones2.xml" value="0.3828125" />
+        <entry key="..\:/Users/ITCA/Documents/CRUDV2/app/src/main/res/drawable/buttonshape.xml" value="0.3828125" />
+        <entry key="..\:/Users/ITCA/Documents/CRUDV2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/ITCA/Documents/CRUDV2/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Users/ITCA/Documents/CRUDV2/app/src/main/res/drawable/ic_save_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/ITCA/Documents/CRUDV2/app/src/main/res/layout/activity_main.xml" value="0.2657407407407407" />
+        <entry key="..\:/Users/ITCA/Documents/CRUDV2/app/src/main/res/layout/content_main.xml" value="0.33" />
+        <entry key="..\:/Users/ITCA/Documents/CRUDV2/app/src/main/res/layout/fragment_second.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/ITCA/Documents/CRUDV2/app/src/main/res/menu/menu_main.xml" value="0.16230366492146597" />
+        <entry key="..\:/Users/ITCA/Documents/CRUDV2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Usuario/Desktop/Androi Studio/CRUDV2/app/src/main/res/drawable/buttonshape.xml" value="0.2203125" />
+        <entry key="..\:/Users/Usuario/Desktop/Androi Studio/CRUDV2/app/src/main/res/drawable/circulo1.xml" value="0.2203125" />
+        <entry key="..\:/Users/Usuario/Desktop/Androi Studio/CRUDV2/app/src/main/res/drawable/descripcion.xml" value="0.11018518518518519" />
+        <entry key="..\:/Users/Usuario/Desktop/Androi Studio/CRUDV2/app/src/main/res/drawable/ic_back.xml" value="0.2203125" />
+        <entry key="..\:/Users/Usuario/Desktop/Androi Studio/CRUDV2/app/src/main/res/drawable/ic_close.xml" value="0.2203125" />
+        <entry key="..\:/Users/Usuario/Desktop/Androi Studio/CRUDV2/app/src/main/res/drawable/ic_delete.xml" value="0.2203125" />
+        <entry key="..\:/Users/Usuario/Desktop/Androi Studio/CRUDV2/app/src/main/res/drawable/ic_search.xml" value="0.2203125" />
+        <entry key="..\:/Users/Usuario/Desktop/Androi Studio/CRUDV2/app/src/main/res/drawable/precio.xml" value="0.2203125" />
+        <entry key="..\:/Users/Usuario/Desktop/Androi Studio/CRUDV2/app/src/main/res/drawable/ventana1.xml" value="0.2203125" />
+        <entry key="..\:/Users/Usuario/Desktop/Androi Studio/CRUDV2/app/src/main/res/layout/activity_consulta_spinner.xml" value="0.33" />
+        <entry key="..\:/Users/Usuario/Desktop/Androi Studio/CRUDV2/app/src/main/res/layout/activity_detalles_articulos.xml" value="0.25" />
+        <entry key="..\:/Users/Usuario/Desktop/Androi Studio/CRUDV2/app/src/main/res/layout/activity_list_view_articulos.xml" value="0.25" />
+        <entry key="..\:/Users/Usuario/Desktop/Androi Studio/CRUDV2/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Usuario/Desktop/Androi Studio/CRUDV2/app/src/main/res/layout/consulta_spinner.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Usuario/Desktop/Androi Studio/CRUDV2/app/src/main/res/layout/content_main.xml" value="0.18" />
+        <entry key="..\:/Users/Usuario/Desktop/Androi Studio/CRUDV2/app/src/main/res/layout/ventana1.xml" value="0.18" />
+        <entry key="..\:/Users/Usuario/Desktop/Androi Studio/CRUDV2/app/src/main/res/menu/menu_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ZaMy/AndroidStudioProjects/Crud2/app/src/main/res/drawable/descripcion.xml" value="0.13914473684210527" />
+        <entry key="..\:/Users/ZaMy/AndroidStudioProjects/Crud2/app/src/main/res/drawable/fondo.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/ZaMy/AndroidStudioProjects/Crud2/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.13778501628664494" />
+        <entry key="..\:/Users/ZaMy/AndroidStudioProjects/Crud2/app/src/main/res/drawable/ic_baseline_warning_24.xml" value="0.13778501628664494" />
+        <entry key="..\:/Users/ZaMy/AndroidStudioProjects/Crud2/app/src/main/res/drawable/ic_key_24.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/ZaMy/AndroidStudioProjects/Crud2/app/src/main/res/drawable/ic_note_add_24.xml" value="0.18518518518518517" />
+        <entry key="..\:/Users/ZaMy/AndroidStudioProjects/Crud2/app/src/main/res/drawable/ic_save_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/ZaMy/AndroidStudioProjects/Crud2/app/src/main/res/drawable/ic_search.xml" value="0.13778501628664494" />
+        <entry key="..\:/Users/ZaMy/AndroidStudioProjects/Crud2/app/src/main/res/drawable/ic_searchbtn.xml" value="0.2203125" />
+        <entry key="..\:/Users/ZaMy/AndroidStudioProjects/Crud2/app/src/main/res/drawable/precio.xml" value="0.2203125" />
+        <entry key="..\:/Users/ZaMy/AndroidStudioProjects/Crud2/app/src/main/res/layout/activity_consulta_spinner.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/ZaMy/AndroidStudioProjects/Crud2/app/src/main/res/layout/activity_detalles_articulos.xml" value="0.16" />
+        <entry key="..\:/Users/ZaMy/AndroidStudioProjects/Crud2/app/src/main/res/layout/activity_list_view_articulos.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/ZaMy/AndroidStudioProjects/Crud2/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/ZaMy/AndroidStudioProjects/Crud2/app/src/main/res/layout/content_main.xml" value="0.1361111111111111" />
+        <entry key="..\:/Users/ZaMy/AndroidStudioProjects/Crud2/app/src/main/res/layout/ventana1.xml" value="0.12894736842105264" />
+        <entry key="..\:/Users/ZaMy/AndroidStudioProjects/Crud2/app/src/main/res/menu/menu_main.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.18" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

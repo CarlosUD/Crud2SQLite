@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.itca.Crud2SQLite.com.itca.crud2.MainActivity">
+    <item
+        android:icon="@drawable/ic_cleaning"
+        android:id="@+id/action_limpiar"
+        android:orderInCategory="3"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_list"
+        android:id="@+id/action_listaArticulos"
+        android:orderInCategory="2"
+        android:title="@string/listarticulos"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/ic_search"
+        android:id="@+id/action_listaArticulos1"
+        android:orderInCategory="1"
+        android:title="@string/listarticulos1"
+        app:showAsAction="always" />
+
+</menu>

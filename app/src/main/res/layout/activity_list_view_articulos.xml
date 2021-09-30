@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context="com.itca.Crud2SQLite.list_view_articulos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LISTADO DE ARTICULOS"
+            android:fontFamily="serif"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+        <SearchView
+            android:layout_marginTop="30sp"
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:queryHint="Search"
+            android:iconifiedByDefault="false"
+
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="3dp"/>
+    </LinearLayout>
+
+    <ListView
+        android:background="@color/white"
+        android:id="@+id/listViewPersonas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="35dp" />
+
+
+
+</LinearLayout>
